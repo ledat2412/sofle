@@ -26,7 +26,7 @@ jobs:
 
       - name: Copy keymaps to relevant directories
         run: |
-          cp --recursive main/sofle/sofle_choc/keymaps vial-qmk/keyboards/sofle/sofle_choc/keymaps/
+          cp --recursive main/sofle/sofle_choc/keymaps/vial vial-qmk/keyboards/sofle/sofle_choc/keymaps/
 
       - name: Verify Vial UID is unique
         run: |
